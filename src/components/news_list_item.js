@@ -7,7 +7,7 @@ const NewsItem = ({item})=> {
 
 
     return(
-        <div className={classes.new_item}>
+        <div className={classes.news_item}>
             <h1>{item.title}</h1> 
             <div>
                 {item.feed}

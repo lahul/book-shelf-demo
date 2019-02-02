@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-size: 40px;
+    font-family: 'Roboto'
     
 }
 
@@ -10,14 +12,17 @@ header {
 
 .logo {
     color : #fff;
-    font-size: 40px;
-   /* font-family: 'Courier New', Courier, monospace'*/
+    /*font-size: 40px;*/
+    font-family: 'Anton'
 }
 
 header input {
     font-size: 20px
 }
 
-.new_item{
-    background: red
+.news_item{
+    font-size: 15px;
+    padding :20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid grey;
 }
